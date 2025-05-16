@@ -52,26 +52,26 @@ with mlflow.start_run(run_name=f"train_{station_id}"):
     joblib.dump(all_features, os.path.join(scaler_dir, f"feature_cols_{station_id}.pkl"))
 
     def make_sequences(df, feature_cols, seq_len=24, max_samples=2000):
-    X, y = [], []
-    df = df.reset_index(drop=True)
-    feature_df = df[feature_cols]
-    wvht_series = df["wvht"]
-    
-    max_i = min(len(df) - seq_len, max_samples)
-    
-    for i in range(max_i):
-        window = feature_df.iloc[i:i+seq_len].values
-        target = wvht_series.iloc[i+seq_len]
-        X.append(window)
-        y.append(target)
-        
-    return np.array(X), np.array(y)
+        X, y = [], []
+        df = df.reset_index(drop=True)
+        feature_df = df[feature_cols]
+        wvht_series = df["wvht"]
+
+        max_i = min(len(df) - seq_len, max_samples)
+
+        for i in range(max_i):
+            window = feature_df.iloc[i:i+seq_len].values
+            target = wvht_series.iloc[i+seq_len]
+            X.append(window)
+            y.append(target)
+
+        return np.array(X), np.array(y)
 
     X_train, y_train = make_sequences(train_df, all_features, max_samples=1000)
     X_test, y_test = make_sequences(test_df, all_features, max_samples=500)
 
     model = Sequential()
-    model.add(LSTM(32, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=False))  # Weniger LSTM-Einheiten
+    model.add(LSTM(32, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=False)) 
     model.add(Dense(1))
     model.compile(loss="mse", optimizer="adam")
 
