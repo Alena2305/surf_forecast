@@ -51,28 +51,40 @@ with mlflow.start_run(run_name=f"train_{station_id}"):
     os.makedirs(scaler_dir, exist_ok=True)
     joblib.dump(all_features, os.path.join(scaler_dir, f"feature_cols_{station_id}.pkl"))
 
-    def make_sequences(df, feature_cols, seq_len=24):
-        X, y = [], []
-        df = df.reset_index(drop=True)
-        feature_df = df[feature_cols]
-        wvht_series = df["wvht"]
-        for i in range(len(df) - seq_len):
-            window = feature_df.iloc[i:i+seq_len].values
-            target = wvht_series.iloc[i+seq_len]
-            X.append(window)
-            y.append(target)
-        return np.array(X), np.array(y)
+    def make_sequences(df, feature_cols, seq_len=24, max_samples=2000):
+    X, y = [], []
+    df = df.reset_index(drop=True)
+    feature_df = df[feature_cols]
+    wvht_series = df["wvht"]
+    
+    max_i = min(len(df) - seq_len, max_samples)
+    
+    for i in range(max_i):
+        window = feature_df.iloc[i:i+seq_len].values
+        target = wvht_series.iloc[i+seq_len]
+        X.append(window)
+        y.append(target)
+        
+    return np.array(X), np.array(y)
 
-    X_train, y_train = make_sequences(train_df, all_features)
-    X_test, y_test = make_sequences(test_df, all_features)
+    X_train, y_train = make_sequences(train_df, all_features, max_samples=1000)
+    X_test, y_test = make_sequences(test_df, all_features, max_samples=500)
 
     model = Sequential()
-    model.add(LSTM(64, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=False))
+    model.add(LSTM(32, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=False))  # Weniger LSTM-Einheiten
     model.add(Dense(1))
     model.compile(loss="mse", optimizer="adam")
 
-    early_stop = EarlyStopping(monitor="val_loss", patience=5, restore_best_weights=True)
-    model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=(X_test, y_test), callbacks=[early_stop], verbose=1)
+    early_stop = EarlyStopping(monitor="val_loss", patience=2, restore_best_weights=True)
+    model.fit(
+        X_train,
+        y_train,
+        epochs=5,                   
+        batch_size=32,
+        validation_data=(X_test, y_test),
+        callbacks=[early_stop],
+        verbose=1
+    )
 
     os.makedirs(model_dir, exist_ok=True)
     model.save(model_path)
