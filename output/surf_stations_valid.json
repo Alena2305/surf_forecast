@@ -1,0 +1,657 @@
+{
+  "GRAYS REEF - 40 NM Southeast of Savannah, GA (41008)": {
+    "id": "41008",
+    "lat": 31.4,
+    "lon": -80.866
+  },
+  "CANAVERAL 20 NM East of Cape Canaveral, FL (41009)": {
+    "id": "41009",
+    "lat": 28.508,
+    "lon": -80.185
+  },
+  "CANAVERAL EAST - 120NM East of Cape Canaveral (41010)": {
+    "id": "41010",
+    "lat": 28.878,
+    "lon": -78.467
+  },
+  "Frying Pan Shoals, NC (41013)": {
+    "id": "41013",
+    "lat": 33.441,
+    "lon": -77.764
+  },
+  "Sunset Nearshore, NC (SUN2) (41024)": {
+    "id": "41024",
+    "lat": 33.837,
+    "lon": -78.477
+  },
+  "Capers Nearshore, SC (CAP2) (41029)": {
+    "id": "41029",
+    "lat": 32.803,
+    "lon": -79.624
+  },
+  "Fripp Nearshore, SC (FRP2) (41033)": {
+    "id": "41033",
+    "lat": 32.279,
+    "lon": -80.406
+  },
+  "Wrightsville Beach Offshore, NC (ILM3) (41037)": {
+    "id": "41037",
+    "lat": 33.988,
+    "lon": -77.362
+  },
+  "Wrightsville Beach Nearshore, NC (ILM2) (41038)": {
+    "id": "41038",
+    "lat": 34.141,
+    "lon": -77.715
+  },
+  "South of St. John, VI (41052)": {
+    "id": "41052",
+    "lat": 18.249,
+    "lon": -64.763
+  },
+  "San Juan, PR (41053)": {
+    "id": "41053",
+    "lat": 18.474,
+    "lon": -66.099
+  },
+  "Vieques Island, PR (41056)": {
+    "id": "41056",
+    "lat": 18.261,
+    "lon": -65.464
+  },
+  "Onslow Bay Outer, NC (LEJ3) (41064)": {
+    "id": "41064",
+    "lat": 34.207,
+    "lon": -76.949
+  },
+  "Capers Nearshore Waves (CAP2WAVE) (41065)": {
+    "id": "41065",
+    "lat": 32.802,
+    "lon": -79.619
+  },
+  "CHR60 (41066)": {
+    "id": "41066",
+    "lat": 32.536,
+    "lon": -79.656
+  },
+  "CHR60WAVE (41076)": {
+    "id": "41076",
+    "lat": 32.536,
+    "lon": -79.659
+  },
+  "Wilmington Harbor, NC - (200) (41108)": {
+    "id": "41108",
+    "lat": 33.721,
+    "lon": -78.016
+  },
+  "Masonboro Inlet, ILM2, NC (150) (41110)": {
+    "id": "41110",
+    "lat": 34.142,
+    "lon": -77.715
+  },
+  "Offshore Fernandina Beach, FL (132) (41112)": {
+    "id": "41112",
+    "lat": 30.709,
+    "lon": -81.292
+  },
+  "Cape Canaveral Nearshore, FL (143) (41113)": {
+    "id": "41113",
+    "lat": 28.4,
+    "lon": -80.533
+  },
+  "Fort Pierce, FL (134) (41114)": {
+    "id": "41114",
+    "lat": 27.552,
+    "lon": -80.216
+  },
+  "Rincon, Puerto Rico (181) (41115)": {
+    "id": "41115",
+    "lat": 18.376,
+    "lon": -67.28
+  },
+  "St. Augustine, FL (194) (41117)": {
+    "id": "41117",
+    "lat": 29.999,
+    "lon": -81.079
+  },
+  "Cape Hatteras East, NC (250) (41120)": {
+    "id": "41120",
+    "lat": 35.258,
+    "lon": -75.285
+  },
+  "Onslow Bay Outer, NC (217) (41159)": {
+    "id": "41159",
+    "lat": 34.211,
+    "lon": -76.944
+  },
+  "ORANGE BEACH - 44 NM SE of Mobile, AL (42012)": {
+    "id": "42012",
+    "lat": 30.06,
+    "lon": -87.548
+  },
+  "C10 - WFS Central Buoy, 25m Isobath (42013)": {
+    "id": "42013",
+    "lat": 27.173,
+    "lon": -82.924
+  },
+  "FREEPORT, TX - 60 NM South of Freeport, TX (42019)": {
+    "id": "42019",
+    "lat": 27.908,
+    "lon": -95.343
+  },
+  "CORPUS CHRISTI, TX - 60NM SSE of Corpus Christi, TX (42020)": {
+    "id": "42020",
+    "lat": 26.97,
+    "lon": -96.679
+  },
+  "C12 - WFS Central Buoy, 50m Isobath (42022)": {
+    "id": "42022",
+    "lat": 27.505,
+    "lon": -83.741
+  },
+  "C13 - WFS South Buoy, 50m Isobath (42023)": {
+    "id": "42023",
+    "lat": 26.01,
+    "lon": -83.086
+  },
+  "C22 - Loop Current Pressure Point Buoy, 70m Isobath (42026)": {
+    "id": "42026",
+    "lat": 25.171,
+    "lon": -83.475
+  },
+  "WEST TAMPA  - 112 NM WNW of Tampa, FL (42036)": {
+    "id": "42036",
+    "lat": 28.5,
+    "lon": -84.505
+  },
+  "Western Caribbean - 195 NM WSW of Negril, Jamaica (42057)": {
+    "id": "42057",
+    "lat": 16.975,
+    "lon": -81.578
+  },
+  "Southwest Pass Entrance W, LA (256) (42084)": {
+    "id": "42084",
+    "lat": 28.988,
+    "lon": -89.649
+  },
+  "Southeast of Ponce, PR (42085)": {
+    "id": "42085",
+    "lat": 17.87,
+    "lon": -66.537
+  },
+  "Trinity Shoal, LA (255) (42091)": {
+    "id": "42091",
+    "lat": 29.088,
+    "lon": -92.505
+  },
+  "Satan Shoal, FL (244) (42095)": {
+    "id": "42095",
+    "lat": 24.409,
+    "lon": -81.968
+  },
+  "Pulley Ridge, FL (226) (42097)": {
+    "id": "42097",
+    "lat": 25.7,
+    "lon": -83.641
+  },
+  "Egmont Channel Entrance, FL (214) (42098)": {
+    "id": "42098",
+    "lat": 27.59,
+    "lon": -82.931
+  },
+  "Offshore St. Petersburg, FL (144) (42099)": {
+    "id": "42099",
+    "lat": 27.352,
+    "lon": -84.275
+  },
+  "PORTLAND - 12 NM Southeast of Portland,ME (44007)": {
+    "id": "44007",
+    "lat": 43.525,
+    "lon": -70.14
+  },
+  "NANTUCKET 54 NM Southeast of Nantucket (44008)": {
+    "id": "44008",
+    "lat": 40.5,
+    "lon": -69.254
+  },
+  "DELAWARE BAY 26 NM Southeast of Cape May, NJ (44009)": {
+    "id": "44009",
+    "lat": 38.46,
+    "lon": -74.692
+  },
+  "BOSTON 16 NM East of Boston, MA (44013)": {
+    "id": "44013",
+    "lat": 42.346,
+    "lon": -70.651
+  },
+  "VIRGINIA BEACH 64 NM East of Virginia Beach, VA (44014)": {
+    "id": "44014",
+    "lat": 36.603,
+    "lon": -74.837
+  },
+  "Buoy A01 - Massachusetts Bay (44029)": {
+    "id": "44029",
+    "lat": 42.523,
+    "lon": -70.566
+  },
+  "Buoy B01 - Western Maine Shelf (44030)": {
+    "id": "44030",
+    "lat": 43.179,
+    "lon": -70.426
+  },
+  "Buoy E01 - Central Maine Shelf (44032)": {
+    "id": "44032",
+    "lat": 43.715,
+    "lon": -69.355
+  },
+  "Buoy F01 - Penobscot Bay (44033)": {
+    "id": "44033",
+    "lat": 44.055,
+    "lon": -68.996
+  },
+  "Buoy I01 - Eastern Maine Shelf (44034)": {
+    "id": "44034",
+    "lat": 44.103,
+    "lon": -68.112
+  },
+  "Potomac, MD (44042)": {
+    "id": "44042",
+    "lat": 38.033,
+    "lon": -76.335
+  },
+  "Duck FRF, NC (44056)": {
+    "id": "44056",
+    "lat": 36.2,
+    "lon": -75.714
+  },
+  "Stingray Point, VA (44058)": {
+    "id": "44058",
+    "lat": 37.567,
+    "lon": -76.257
+  },
+  "Gooses Reef, MD (44062)": {
+    "id": "44062",
+    "lat": 38.556,
+    "lon": -76.415
+  },
+  "Annapolis, MD (44063)": {
+    "id": "44063",
+    "lat": 38.963,
+    "lon": -76.448
+  },
+  "York Spit, VA (44072)": {
+    "id": "44072",
+    "lat": 37.201,
+    "lon": -76.266
+  },
+  "CO2 Gulf of Maine Buoy (44073)": {
+    "id": "44073",
+    "lat": 43.02,
+    "lon": -70.54
+  },
+  "Bethany Beach, DE (263) (44084)": {
+    "id": "44084",
+    "lat": 38.537,
+    "lon": -75.044
+  },
+  "Buzzards Bay, MA (260) (44085)": {
+    "id": "44085",
+    "lat": 41.387,
+    "lon": -71.032
+  },
+  "Nags Head, NC (243) (44086)": {
+    "id": "44086",
+    "lat": 36.001,
+    "lon": -75.421
+  },
+  "Thimble Shoal, VA (240) (44087)": {
+    "id": "44087",
+    "lat": 37.026,
+    "lon": -76.149
+  },
+  "Virginia Beach Offshore, VA (171) (44088)": {
+    "id": "44088",
+    "lat": 36.612,
+    "lon": -74.839
+  },
+  "Wallops Island, VA (224) (44089)": {
+    "id": "44089",
+    "lat": 37.754,
+    "lon": -75.325
+  },
+  "Cape Cod Bay, MA (221) (44090)": {
+    "id": "44090",
+    "lat": 41.84,
+    "lon": -70.329
+  },
+  "Barnegat, NJ (209) (44091)": {
+    "id": "44091",
+    "lat": 39.768,
+    "lon": -73.77
+  },
+  "Oregon Inlet, NC (192) (44095)": {
+    "id": "44095",
+    "lat": 35.75,
+    "lon": -75.33
+  },
+  "Block Island, RI  (154) (44097)": {
+    "id": "44097",
+    "lat": 40.969,
+    "lon": -71.124
+  },
+  "Jeffrey's Ledge, NH (160) (44098)": {
+    "id": "44098",
+    "lat": 42.8,
+    "lon": -70.171
+  },
+  "Cape Henry, VA (147) (44099)": {
+    "id": "44099",
+    "lat": 36.915,
+    "lon": -75.722
+  },
+  "Duck FRF 26m, NC (430) (44100)": {
+    "id": "44100",
+    "lat": 36.258,
+    "lon": -75.593
+  },
+  "ATW20 - Atwater Park, WI (45013)": {
+    "id": "45013",
+    "lat": 43.1,
+    "lon": -87.85
+  },
+  "GB17 - South Green Bay, WI (45014)": {
+    "id": "45014",
+    "lat": 44.794,
+    "lon": -87.758
+  },
+  "Cook Nuclear Plant Buoy, Stevensville, MI (45026)": {
+    "id": "45026",
+    "lat": 41.982,
+    "lon": -86.619
+  },
+  "Holland Buoy, MI (45029)": {
+    "id": "45029",
+    "lat": 42.9,
+    "lon": -86.272
+  },
+  "Cleveland Buoy, OH (45164)": {
+    "id": "45164",
+    "lat": 41.748,
+    "lon": -81.698
+  },
+  "South Haven Buoy, MI (45168)": {
+    "id": "45168",
+    "lat": 42.397,
+    "lon": -86.331
+  },
+  "Salmon Unlimited Wisconsin (45199)": {
+    "id": "45199",
+    "lat": 42.702,
+    "lon": -87.647
+  },
+  "Sheffield Buoy (45204)": {
+    "id": "45204",
+    "lat": 41.508,
+    "lon": -82.115
+  },
+  "Edgewater Beach Buoy (45205)": {
+    "id": "45205",
+    "lat": 41.501,
+    "lon": -81.748
+  },
+  "Euclid Beach Buoy (45206)": {
+    "id": "45206",
+    "lat": 41.585,
+    "lon": -81.583
+  },
+  "Fairport Harbor Buoy (45207)": {
+    "id": "45207",
+    "lat": 41.725,
+    "lon": -81.37
+  },
+  "Ashtabula Buoy (45208)": {
+    "id": "45208",
+    "lat": 41.908,
+    "lon": -80.813
+  },
+  "Lakeport Buoy, MI (45209)": {
+    "id": "45209",
+    "lat": 43.129,
+    "lon": -82.391
+  },
+  "SOUTHEAST PAPA - 600NM West of Eureka, CA (46006)": {
+    "id": "46006",
+    "lat": 40.4355,
+    "lon": -135.252
+  },
+  "Neah Bay - 6 NM North of Cape Flattery, WA (Traffic Separation Lighted Buoy) (46087)": {
+    "id": "46087",
+    "lat": 48.493,
+    "lon": -124.727
+  },
+  "NEW DUNGENESS - 17 NM NE of Port Angeles, WA (46088)": {
+    "id": "46088",
+    "lat": 48.332,
+    "lon": -123.179
+  },
+  "MBM1 (46092)": {
+    "id": "46092",
+    "lat": 36.751,
+    "lon": -122.029
+  },
+  "OOI Newport Shelf (46097)": {
+    "id": "46097",
+    "lat": 44.639,
+    "lon": -124.304
+  },
+  "OOI Westport Shelf (46099)": {
+    "id": "46099",
+    "lat": 46.988,
+    "lon": -124.567
+  },
+  "OOI Westport Offshore (46100)": {
+    "id": "46100",
+    "lat": 46.851,
+    "lon": -124.964
+  },
+  "Grays Harbor, WA (036) (46211)": {
+    "id": "46211",
+    "lat": 46.857,
+    "lon": -124.243
+  },
+  "Cape Mendocino, CA (094) (46213)": {
+    "id": "46213",
+    "lat": 40.292,
+    "lon": -124.748
+  },
+  "Point Reyes, CA (029) (46214)": {
+    "id": "46214",
+    "lat": 37.937,
+    "lon": -123.463
+  },
+  "Diablo Canyon, CA (076) (46215)": {
+    "id": "46215",
+    "lat": 35.204,
+    "lon": -120.859
+  },
+  "Harvest, CA (071) (46218)": {
+    "id": "46218",
+    "lat": 34.452,
+    "lon": -120.78
+  },
+  "San Nicolas Island, CA (067) (46219)": {
+    "id": "46219",
+    "lat": 33.226,
+    "lon": -119.891
+  },
+  "Santa Monica Bay, CA (028) (46221)": {
+    "id": "46221",
+    "lat": 33.86,
+    "lon": -118.641
+  },
+  "San Pedro, CA (092) (46222)": {
+    "id": "46222",
+    "lat": 33.618,
+    "lon": -118.317
+  },
+  "Oceanside Offshore, CA (045) (46224)": {
+    "id": "46224",
+    "lat": 33.178,
+    "lon": -117.472
+  },
+  "Torrey Pines Outer, CA (100) (46225)": {
+    "id": "46225",
+    "lat": 32.933,
+    "lon": -117.391
+  },
+  "UMPQUA OFFSHORE, OR (139) (46229)": {
+    "id": "46229",
+    "lat": 43.772,
+    "lon": -124.549
+  },
+  "Point Loma South, CA  (191) (46232)": {
+    "id": "46232",
+    "lat": 32.517,
+    "lon": -117.425
+  },
+  "Imperial Beach Nearshore, CA (155) (46235)": {
+    "id": "46235",
+    "lat": 32.57,
+    "lon": -117.169
+  },
+  "San Francisco Bar, CA  (142) (46237)": {
+    "id": "46237",
+    "lat": 37.788,
+    "lon": -122.634
+  },
+  "Point Sur, CA (157) (46239)": {
+    "id": "46239",
+    "lat": 36.335,
+    "lon": -122.104
+  },
+  "Cabrillo Point, Monterey Bay, CA  (158) (46240)": {
+    "id": "46240",
+    "lat": 36.626,
+    "lon": -121.907
+  },
+  "Clatsop Spit, OR (162) (46243)": {
+    "id": "46243",
+    "lat": 46.214,
+    "lon": -124.126
+  },
+  "Humboldt Bay, North Spit, CA (168) (46244)": {
+    "id": "46244",
+    "lat": 40.896,
+    "lon": -124.358
+  },
+  "Astoria Canyon, OR  (179) (46248)": {
+    "id": "46248",
+    "lat": 46.133,
+    "lon": -124.64
+  },
+  "Santa Cruz Basin, CA (203) (46251)": {
+    "id": "46251",
+    "lat": 33.769,
+    "lon": -119.565
+  },
+  "San Pedro South, CA (213) (46253)": {
+    "id": "46253",
+    "lat": 33.576,
+    "lon": -118.181
+  },
+  "SCRIPPS Nearshore, CA (201) (46254)": {
+    "id": "46254",
+    "lat": 32.868,
+    "lon": -117.267
+  },
+  "Long Beach Channel, CA (215) (46256)": {
+    "id": "46256",
+    "lat": 33.7,
+    "lon": -118.201
+  },
+  "Mission Bay West, CA (220) (46258)": {
+    "id": "46258",
+    "lat": 32.749,
+    "lon": -117.502
+  },
+  "Santa Lucia Escarpment, CA (222) (46259)": {
+    "id": "46259",
+    "lat": 34.774,
+    "lon": -121.491
+  },
+  "Del Mar Nearshore, CA (153) (46266)": {
+    "id": "46266",
+    "lat": 32.957,
+    "lon": -117.279
+  },
+  "Angeles Point, WA (248) (46267)": {
+    "id": "46267",
+    "lat": 48.173,
+    "lon": -123.607
+  },
+  "Topanga Nearshore, CA (103) (46268)": {
+    "id": "46268",
+    "lat": 34.022,
+    "lon": -118.578
+  },
+  "Leucadia Nearshore, CA (262) (46274)": {
+    "id": "46274",
+    "lat": 33.062,
+    "lon": -117.314
+  },
+  "Red Beach Nearshore, CA (264) (46275)": {
+    "id": "46275",
+    "lat": 33.291,
+    "lon": -117.501
+  },
+  "Waimea Bay, HI (106) (51201)": {
+    "id": "51201",
+    "lat": 21.671,
+    "lon": -158.118
+  },
+  "Mokapu Point, HI (098) (51202)": {
+    "id": "51202",
+    "lat": 21.414,
+    "lon": -157.681
+  },
+  "Pauwela, Maui, HI (187) (51205)": {
+    "id": "51205",
+    "lat": 21.018,
+    "lon": -156.421
+  },
+  "Hilo, Hawaii, HI (188) (51206)": {
+    "id": "51206",
+    "lat": 19.779,
+    "lon": -154.97
+  },
+  "Kaneohe Bay, HI (198) (51207)": {
+    "id": "51207",
+    "lat": 21.477,
+    "lon": -157.752
+  },
+  "Hanalei, Kauai, HI (202) (51208)": {
+    "id": "51208",
+    "lat": 22.285,
+    "lon": -159.574
+  },
+  "Kaneohe Bay, WETS, HI (225) (51210)": {
+    "id": "51210",
+    "lat": 21.477,
+    "lon": -157.757
+  },
+  "Pearl Harbor Entrance, HI (233) (51211)": {
+    "id": "51211",
+    "lat": 21.297,
+    "lon": -157.959
+  },
+  "Barbers Point, Kalaeloa, HI (238) (51212)": {
+    "id": "51212",
+    "lat": 21.323,
+    "lon": -158.149
+  },
+  "Kaumalapau Southwest, Lanai, HI (239) (51213)": {
+    "id": "51213",
+    "lat": 20.75,
+    "lon": -157.002
+  }
+}
