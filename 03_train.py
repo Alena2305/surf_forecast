@@ -16,6 +16,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
+from tensorflow.keras.activations import relu
 
 station_id = sys.argv[1]
 data_dir = "output"
@@ -72,7 +73,7 @@ with mlflow.start_run(run_name=f"train_{station_id}"):
 
     model = Sequential()
     model.add(LSTM(32, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=False)) 
-    model.add(Dense(1))
+    model.add(Dense(1, activation="relu"))
     model.compile(loss="mse", optimizer="adam")
 
     early_stop = EarlyStopping(monitor="val_loss", patience=2, restore_best_weights=True)
