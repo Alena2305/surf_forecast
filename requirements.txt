@@ -1,0 +1,14 @@
+streamlit
+streamlit_folium
+pandas
+numpy
+scikit-learn
+tensorflow
+joblib
+requests
+matplotlib
+folium
+mlflow
+fastapi
+uvicorn
+
